@@ -4,3 +4,5 @@ const app = express();
 app.get('/', (req, res) => {
     req.send('No Bitches?');
 });
+
+app.listen(80);
